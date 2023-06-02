@@ -3,33 +3,33 @@
     "address": "Hudson St, New York, NY 10013",
     "contact": "+12126399675",
     "category": "parks",
-    "distance from BS": "0.7 mi",
+    "distance": "0.7 mi",
     "time": "14 min",
-    "open hours": "6am - 10pm",
+    "hours": "6am - 10pm",
     "description": "Named after a New York politician, this park includes baseball fields plus handball & bocce courts.",
-    "google maps link": "https://goo.gl/maps/mR3hLUt873MBq6oC7"
+    "google-maps-link": "https://goo.gl/maps/mR3hLUt873MBq6oC7"
     },
-    
+
     {"location": "Washington Square Park & Dog Run",
     "address": "Washington Square, New York, NY 10012",
     "contact": "",
     "category": "parks",
-    "distance from BS": "0.5 mi",
+    "distance": "0.5 mi",
     "time":"9 min",
-    "open hours": "6am - 12am",
+    "hours": "6am - 12am",
     "description":"Historic Greenwich Village concrete-&-green park known for its stately arch & prime people watching.",
-    "google maps link": "https://goo.gl/maps/HTN3wiDYuZmNfMM97"
+    "google-maps-link": "https://goo.gl/maps/HTN3wiDYuZmNfMM97"
     },
 
     {"location": "Thompkins Square park",
     "address": "E. 10th Street, New York, NY 10009",
     "contact": "+12126399675",
     "category": "parks",
-    "distance from BS": "0.9mi",
+    "distance": "0.9mi",
     "time":"19 min",
-    "open hours": "6am - 12am",
+    "hours": "6am - 12am",
     "description":"Historic, leafy park hosting a farmer's market plus live music & other eclectic events.",
-    "google maps link": "https://goo.gl/maps/ez3SftunrQtnoH4w9"
+    "google-maps-link": "https://goo.gl/maps/ez3SftunrQtnoH4w9"
     },
 
 
@@ -37,98 +37,98 @@
     "address": "180 Spring St, New York, NY, US, 10012",
     "contact": "+12122268645",
     "category": "restaurants",
-    "distance from BS": "0.5 mi",
+    "distance": "0.5 mi",
     "time":"9 min",
-    "open hours": "11:30am - 11pm",
+    "hours": "11:30am - 11pm",
     "description":"Old-school French dishes in classic bistro surroundings, plus sidewalk seating in the heart of SoHo.",
-    "google maps link": "https://goo.gl/maps/D5cWsn4ymykZ25Rf9"
+    "google-maps-link": "https://goo.gl/maps/D5cWsn4ymykZ25Rf9"
     },
 
     {"location": "Torch & Crown Brewing Company",
     "address": "12 VANDAM ST, NEW YORK, NY 10013",
     "contact": "+12122287005",
     "category": "bars",
-    "distance from BS": "0.6 mi",
+    "distance": "0.6 mi",
     "time":"11 min",
-    "open hours": "12pm - 11pm",
+    "hours": "12pm - 11pm",
     "description":"Manhattan's Brewery. Featuring fresh beer, great food, new york state wine/liquor/cocktails, a relaxed atmosphere, and great service. Open for lunch and dinner 7 days a week. Plentiful indoor and outdoor dining, TVs for live sports, and a family-friendly environment with high chairs and changing tables (we've got kids too). Make a reservation above or just swing by!",
-    "google maps link": "https://goo.gl/maps/9QRmLEPdBzHRGLdP7"
+    "google-maps-link": "https://goo.gl/maps/9QRmLEPdBzHRGLdP7"
     },
 
     {"location": "Tom & Jerry's Bar",
     "address": "288 Elizabeth St, New York, NY 10012",
     "contact": "+16468690345",
     "category": "bars",
-    "distance from BS": "0.2 mi",
+    "distance": "0.2 mi",
     "time":"4 min",
-    "open hours": "12pm - 4pm",
+    "hours": "12pm - 4pm",
     "description": "Laid-back bar with cocktails & an extensive microbrew list that draws a tech-savvy crowd.",
-    "google maps link": "https://goo.gl/maps/UdBhjg2NHRNEsBwc6"
+    "google-maps-link": "https://goo.gl/maps/UdBhjg2NHRNEsBwc6"
     },
 
     {"location": "The Grey Dog",
     "address": "49 Carmine St, New York, NY 10014",
     "contact": "+12122292345",
     "category": "cafes",
-    "distance from BS": "0.6 mi",
+    "distance": "0.6 mi",
     "time":"12 min",
-    "open hours": "8am - 9pm",
+    "hours": "8am - 9pm",
     "description":"Neighborhood coffeehouse serving eggs, granola, sandwiches & salads in a homey, laid-back setting.",
-    "google maps link": "https://goo.gl/maps/Gudv2Kw4KYjfWkeDA"
+    "google-maps-link": "https://goo.gl/maps/Gudv2Kw4KYjfWkeDA"
     },
 
     {"location": "Three of Cups Soho",
     "address": "150 Sullivan St, New York, NY 10012",
     "contact": "+16466494221",
     "category": "cafes",
-    "distance from BS": "0.4 mi",
-    "open hours": "8am - 12am",
+    "distance": "0.4 mi",
+    "hours": "8am - 12am",
     "description":"SoHo's neighborhood bistro and happy hour destination, serving breakfast (with a five-star artisanal coffee program), lunch, dinner and late-night snacks, all with a focus on farm to table specialties, craft beer and wine, and creative cocktails.",
-    "google maps link": "https://goo.gl/maps/XE9goMfkWYKngikp7"
+    "google-maps-link": "https://goo.gl/maps/XE9goMfkWYKngikp7"
     },
 
     {"location": "Boris & Horton",
     "address": "195 Avenue A, New York, NY 10009",
     "contact": "+12125108986",
     "category": "cafes",
-    "distance from BS": "1.1 mi",
+    "distance": "1.1 mi",
     "time":"23 min",
-    "open hours": "7am - 8pm",
+    "hours": "7am - 8pm",
     "description":"Coffee drinks, beer & wine with baked goods & cafe fare in hip digs, plus dog adoption events.",
-    "google maps link": "https://goo.gl/maps/RVjuXMUYnaexMD6K7"
+    "google-maps-link": "https://goo.gl/maps/RVjuXMUYnaexMD6K7"
     },
 
     {"location": "Gilligan's",
     "address": "310 W Broadway, New York, NY 10013",
     "contact": "+12129653271",
     "category": "bars",
-    "distance from BS": "0.6 mi",
+    "distance": "0.6 mi",
     "time":"13 min",
-    "open hours": "3pm - 10pm",
+    "hours": "3pm - 10pm",
     "description":"Design-focused property famed for its artistic public spaces, upscale rooms & hip bar scene.",
-    "google maps link": "https://goo.gl/maps/LD49R2wLfjKBqZpGA"
+    "google-maps-link": "https://goo.gl/maps/LD49R2wLfjKBqZpGA"
     },
 
     {"location": "Reddy by Petco (Pet Store)",
     "address": "125 Prince St, New York, NY 10012",
     "contact": "+12128944406",
     "category": "other",
-    "distance from BS": "0.4 mi",
+    "distance": "0.4 mi",
     "time":"5 min",
-    "open hours": "10am - 7pm",
+    "hours": "10am - 7pm",
     "description":"Pet store with curbside pickup, in-store shopping, and deliver",
-    "google maps link": "https://goo.gl/maps/AvVdZBDt6xCGqSW49"
+    "google-maps-link": "https://goo.gl/maps/AvVdZBDt6xCGqSW49"
     },
 
     {"location": "Pet Bar (Pet Store)",
     "address": "310 W Broadway, New York, NY 10013",
     "contact": "+12122539250",
     "category": "other",
-    "distance from BS": "0.4 mi",
+    "distance": "0.4 mi",
     "time":"7 min",
-    "open hours": "10:30am - 7pm",
+    "hours": "10:30am - 7pm",
     "description":"Pet shop in a pint-sized space featuring food, toys, gear & free delivery.",
-    "google maps link": "https://goo.gl/maps/2StyTvngKmY5Fc3i7"
+    "google-maps-link": "https://goo.gl/maps/2StyTvngKmY5Fc3i7"
     }
     
     
