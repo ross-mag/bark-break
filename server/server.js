@@ -35,6 +35,21 @@ app.get('/locations', function (req, res) {
     response.json(locations);
 })
 
+//handle get request to "/locations:time"
+app.get('/locations/:time', function (req, res) {
+    console.log("location route");
+    //get locations
+    const locations = readLocations();
+    //filter locations by time
+    const filteredLocations = locations.filter(location => location.time <= params.time) 
+    //send status
+    response.status(200);
+    //send info
+    response.json(locations);
+})
+
+
+
 //handle post request to "/locations"
 app.post("/locations", (req, res) => {
     //get info from request to create new location
