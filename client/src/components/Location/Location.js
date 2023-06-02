@@ -13,6 +13,8 @@ export default function Location(props){
             <h4 className="card_distance">{locationObj.distance}</h4>
             <h4 className="card_eta">Time to get there: {locationObj.time}</h4>
             <h4 className="card_category">Category: {locationObj.category}</h4>
+            <h4 className="card_address">{locationObj.address}</h4>
+            <h4 className="card_contact">Contact: {locationObj.contact}</h4>
         </Link>
         <div className='card_map-link'>
             <p> {locationObj.google-maps-link}</p>
