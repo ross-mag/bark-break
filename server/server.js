@@ -8,11 +8,12 @@ const PORT = process.env.PORT || 2319;
 //because cors. just do it
 app.use(cors());
 //because json.
-app.use(express.json);
+app.use(express.json());
 
 //handles get request to "/"
 app.get('/', function (req, res) {
     console.log("home route");
+    res.send({ title: "hello" })
 });
 
 function readLocations() {
@@ -24,7 +25,7 @@ function readLocations() {
 }
 
 //handle get request to "/locations"
-app.get('/', function (req, res) {
+app.get('/locations', function (req, res) {
     console.log("location route");
     //get locations
     const locations = readLocations();
