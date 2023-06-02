@@ -18,7 +18,7 @@ app.get('/', function (req, res) {
 
 function readLocations() {
     //get info from file
-    const locationsData = fs.readFileSync();
+    const locationsData = fs.readFileSync("./locations.json");
     //parse info
     const parsedData = JSON.parse(locationsData);
     return parsedData;
@@ -30,9 +30,9 @@ app.get('/locations', function (req, res) {
     //get locations
     const locations = readLocations();
     //send status
-    response.status(200);
+    res.status(200);
     //send info
-    response.json(locations);
+    res.json(locations);
 })
 
 //handle get request to "/locations:time"
@@ -41,11 +41,11 @@ app.get('/locations/:time', function (req, res) {
     //get locations
     const locations = readLocations();
     //filter locations by time
-    const filteredLocations = locations.filter(location => location.time <= params.time) 
+    const filteredLocations = locations.filter(location => location.time <= req.params.time) 
     //send status
-    response.status(200);
+    res.status(200);
     //send info
-    response.json(locations);
+    res.json(filteredLocations);
 })
 
 

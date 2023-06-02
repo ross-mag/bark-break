@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 
 
-function Calculator() {
+function TimeInput() {
 
     const [time, setTime] = useState("");
     const [locations, setLocations] = useState([]);
@@ -11,27 +11,28 @@ function Calculator() {
         setTime(event.target.value);
     };
 
-    const isFormValid = () => {
-        if (!time) {
-            return false;
-        } else {
-            return true;
-        };
-    };
+    // const isFormValid = () => {
+    //     if (!time) {
+    //         return false;
+    //     } else {
+    //         return true;
+    //     };
+    // };
 
     const handleSubmit = (event) => {
         event.preventDefault();
 
-        if (isFormValid()) {
+        // if (isFormValid) {
             axios
                 .get(`http://localhost:2319/locations/${time}`)
                 .then(response => {
-                    setLocations = response.data;
+                    console.log(response);
+                    setLocations(response.data);
                 });
 
-        } else {
-            alert("Enter a valid time");
-        }
+        // } else {
+        //     alert("Enter a valid time");
+        // }
     }
 
     return (
@@ -39,14 +40,15 @@ function Calculator() {
             <label>
                 How much time do you have? <input type="text" name="time" onChange={handleChangeTime} value={time} className="time-form__input" />
             </label>
+            {!locations ? <h1>Loading...</h1> : 
             <div className="time-form_info">
                 {locations.map((location) => (
                     <h3>{location.name}</h3>
-                ))}
-
+                    ))}
             </div>
+            }
         </form>
     )
 }
 
-export default Calculator
+export default TimeInput
