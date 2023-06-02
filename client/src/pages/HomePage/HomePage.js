@@ -2,6 +2,8 @@ import "./HomePage.scss";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import logo from "../../assets/images/Figma basics (1).svg"
+import TimeInput from "../../components/TimeInput/TimeInput";
+import Location from "../../components/Location/Location";
 
 function HomePage() {
 
@@ -29,7 +31,7 @@ function HomePage() {
                     className="logo"
                 />
             </div>
-            <div className="icons"></div>
+            <TimeInput />
         </div>
     );
 }
