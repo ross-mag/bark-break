@@ -1,5 +1,5 @@
 import 'locations.scss';
-import Home from '../pages/HomePage';
+import Home from '../../pages/HomePage';
 
 // we want to display a location card that references our database
 
